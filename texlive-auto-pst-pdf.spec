@@ -1,3 +1,9 @@
+# revision 23723
+# category Package
+# catalog-ctan /macros/latex/contrib/auto-pst-pdf
+# catalog-date 2011-08-27 23:30:14 +0200
+# catalog-license lppl
+# catalog-version 0.6
 Name:		texlive-auto-pst-pdf
 Version:	0.6
 Release:	1
@@ -53,6 +59,7 @@ consistently and easily.
 #- source
 %doc %{_texmfdistdir}/source/latex/auto-pst-pdf/auto-pst-pdf.dtx
 %doc %{_texmfdistdir}/source/latex/auto-pst-pdf/auto-pst-pdf.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -63,3 +70,5 @@ consistently and easily.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
