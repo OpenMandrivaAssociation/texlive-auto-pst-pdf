@@ -6,7 +6,7 @@
 # catalog-version 0.6
 Name:		texlive-auto-pst-pdf
 Version:	0.6
-Release:	4
+Release:	5
 Summary:	Wrapper for pst-pdf (with some psfrag features)
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/auto-pst-pdf
