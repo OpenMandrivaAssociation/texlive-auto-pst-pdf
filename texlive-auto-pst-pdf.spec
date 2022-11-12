@@ -5,9 +5,9 @@ Summary:	Wrapper for pst-pdf (with some psfrag features)
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/auto-pst-pdf
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/auto-pst-pdf.r56596.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/auto-pst-pdf.doc.r56596.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/auto-pst-pdf.source.r56596.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/auto-pst-pdf.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/auto-pst-pdf.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/auto-pst-pdf.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
