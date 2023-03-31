@@ -1,6 +1,6 @@
 Name:		texlive-auto-pst-pdf
 Version:	56596
-Release:	1
+Release:	2
 Summary:	Wrapper for pst-pdf (with some psfrag features)
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/auto-pst-pdf
