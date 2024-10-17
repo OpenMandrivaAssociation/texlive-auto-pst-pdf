@@ -3,7 +3,7 @@ Version:	56596
 Release:	2
 Summary:	Wrapper for pst-pdf (with some psfrag features)
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/auto-pst-pdf
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/auto-pst-pdf
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/auto-pst-pdf.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/auto-pst-pdf.doc.r%{version}.tar.xz
